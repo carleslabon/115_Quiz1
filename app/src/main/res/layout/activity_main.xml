@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="64dp"
+    android:background="@drawable/tiger">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ustColleges"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+    </ListView>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ustColleges"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00F"
+        android:onClick="goBackToMain"
+        android:text="HOME"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBack"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00F"
+        android:onClick="goToOne"
+        android:text="1"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00F"
+        android:onClick="goToTwo"
+        android:text="2"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00F"
+        android:onClick="goToThree"
+        android:text="3"
+        android:textColor="#FFF" />
+
+</RelativeLayout>

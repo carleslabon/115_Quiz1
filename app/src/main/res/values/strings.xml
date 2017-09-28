@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">eslabonQuiz1</string>
+    <string-array name="Colleges">
+            <item>
+                Oreo
+            </item>
+        <item>
+                Nougat
+            </item>
+        <item>
+                Marshmallow
+            </item>
+    </string-array>
+    <string-array name="Year">
+            <item>
+                Rank 1
+            </item>
+        <item>
+                Rank 2
+            </item>
+        <item>
+                Rank 3
+            </item>
+    </string-array>
+</resources>
