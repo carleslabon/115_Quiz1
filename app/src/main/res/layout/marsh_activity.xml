@@ -1,7 +1,6 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -122,43 +121,51 @@
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:background="#00F"
         android:onClick="goBackToMain"
         android:text="HOME"
         android:textColor="#FFF"
-        tools:layout_editor_absoluteX="52dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:background="#00F"
         android:onClick="goToOne"
         android:text="1"
         android:textColor="#FFF"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnBack" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:background="#00F"
         android:onClick="goToTwo"
         android:text="2"
         android:textColor="#FFF"
-        tools:layout_editor_absoluteY="447dp"
-        tools:layout_editor_absoluteX="215dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btn1" />
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="50dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:background="#00F"
         android:onClick="goToThree"
         android:text="3"
         android:textColor="#FFF"
-        tools:layout_editor_absoluteY="447dp"
-        tools:layout_editor_absoluteX="275dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btn2" />
 </android.support.constraint.ConstraintLayout>
